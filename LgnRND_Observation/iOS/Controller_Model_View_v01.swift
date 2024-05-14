@@ -25,7 +25,8 @@ extension Model01 {
 //=========================================
 //Controller @STATE only
 //class Controller01: ObservableObject {
-class Controller01: ObservableObject {
+//if @Published is ommitted - then : ObservableObject is requiered
+class Controller01 {
     @Published private var model = Model01()
 }
 
